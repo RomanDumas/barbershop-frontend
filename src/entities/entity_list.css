@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    /* align-items: center; */
+    border:2px solid black;
+    margin: 5px;
+    /* padding-inline: 1px; */
+}
+.list-title{
+  display:flex;
+  justify-content: center;
+}
+.card-id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    padding: 0 15px;
+}
+
+.card-content {
+    padding: 10px 15px;
+    
+}

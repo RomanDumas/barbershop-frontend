@@ -1,0 +1,27 @@
+body{
+    margin:0;
+}
+.header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 5px black solid;
+    background-color: rgb(156, 91, 156);
+    position: sticky;
+    top: 0px;
+    padding: 10px 0;
+}
+.link{
+    margin-inline: 15px;
+
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: color 0.2s ease-in-out;
+}
+.link a {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #f0d0f0; 
+}

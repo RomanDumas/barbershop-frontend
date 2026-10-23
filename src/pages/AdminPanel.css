@@ -1,0 +1,21 @@
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  display:flex;
+  flex-direction: column;
+  border: 3px solid grey;
+  margin: 1px;
+  margin-bottom: 5px;
+  background-color:rgb(194, 194, 224);
+}
+.list-title{
+  display:flex;
+  justify-content: center;
+}
+.list-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
