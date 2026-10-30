@@ -12,7 +12,7 @@ const Payment = () => {
         })
         .then(data => setPayments(data))
         .catch(error => console.error(error, "error"));
-    })
+    }, [])
 
     return (
         <div className='list-content'>
@@ -25,7 +25,7 @@ const Payment = () => {
                         {payment.id}
                     </div>
                     <div className='card-content'>
-                        <p>payment method: {payment.paymentMethod.name}</p>
+                        <p>payment method: {payment.paymentMethod == null ? "null" : payment.paymentMethod.name}</p>
                         <p>payment status: {payment.isPaid ? "True" : "False"}</p>
                         <p>visit id: {payment.visit.id}</p>    
                     </div>

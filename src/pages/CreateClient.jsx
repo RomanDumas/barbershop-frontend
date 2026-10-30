@@ -26,7 +26,7 @@ const CreateClient = () =>{
 
         try{
             const response = await fetch(BACKEND_URL, {
-                method: "POSt",
+                method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(clientData)
             });

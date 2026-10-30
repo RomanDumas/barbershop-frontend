@@ -44,7 +44,7 @@ const UpdateClient = () => {
                 console.log("Клієнта успішно збережено на бекенді:", data);
                 alert("Клієнта успішно оновлено!");
                 
-                navigate('/clients'); 
+                navigate('/admin'); 
             } else {
                 console.error("Сервер повернув помилку:", response.status);
                 alert("Помилка сервера. Не вдалося оновити клієнта.");
